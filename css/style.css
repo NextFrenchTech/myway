@@ -1,0 +1,179 @@
+/*ALL*/ 
+
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    padding: 6% 0;
+    background-size: 100vw;
+}
+
+.addBackground {
+    background-image: url(../assets/vwBackground.jpg);
+}
+
+a {
+    font: 0.8rem sans-serif;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: antiquewhite;
+}
+
+p {
+    margin-bottom: 5px;
+}
+
+label {
+    font-weight: bold;
+}
+
+iframe {
+    width: 350px;
+    height: 365px;
+    margin: 3.5% 0;
+}
+
+/*navbar*/ 
+
+.navbar {
+    background-color: transparent;
+    padding: 0;
+}
+
+.navbar-brand {
+    margin: 0;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    padding: 0 2px;
+}
+
+.navbar>.container {
+    justify-content: space-evenly;
+}
+
+.dropdown-menu.show {
+    left: 2px;
+    right: 2px;
+    padding: 0;
+    display: inherit;
+    justify-content: space-evenly;
+    background-color: transparent;
+    border: none;
+}
+
+.bi-emoji-smile-upside-down-fill {
+    color: orange;
+    width: 32px; 
+    height: 32px;
+    margin-left: 10px;
+}
+
+.bi-journal-plus {
+    color: red;
+    width: 32px; 
+    height: 32px;
+}
+
+.bi-p-square, .bi-p-square-fill {
+    color: blue;
+    background-color: white;
+    border-radius: 15%;
+    width: 32px; 
+    height: 32px;
+    margin-left: 25px;
+}
+
+.bi-file-earmark-code {
+    color: yellow;
+    width: 32px; 
+    height: 32px;
+}
+
+.bi-info-circle {
+    color: red;
+    background-color: white;
+    border-radius: 50%;
+    width: 32px; 
+    height: 32px;
+}
+
+/*smiley*/ 
+
+    /*voir css/smiley.css*/
+
+/*index/park/plug*/ 
+
+.backgroundVW {
+    background-image: url(../assets/volkswagenBackground.jpg);
+    height: 150px;
+    background-size: 100vw;
+}
+
+#inputParking, #inputPlace, #inputPlug {
+    text-transform: capitalize;
+}
+
+.resultParking, .resultPlace, .resultPlug {
+    font-weight: 400;
+}
+
+.boxing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.addBoxing {
+    margin: 0 5%;
+    margin-top: 7%;
+    padding: 20px;
+    border: solid 1px;
+    border-color:antiquewhite;
+    border-radius: 50px;
+    color: antiquewhite;
+}
+
+.underline {
+text-decoration: underline;
+}
+
+/*mentionsLegales*/ 
+
+.navbarML>.containerML {
+    display: flex;
+    justify-content: center;
+}
+
+.bi-house {
+    color: green;
+    width: 32px; 
+    height: 32px;
+}
+
+.mentionsLegales {
+    margin: 5%;
+    padding: 10px;
+    border: solid 1px;
+    border-color:antiquewhite;
+    border-radius: 50px;
+    background-color: black;
+    color: antiquewhite;
+}
+
+#current_date {
+    padding-bottom: 25px;
+}
